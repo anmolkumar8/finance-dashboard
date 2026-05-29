@@ -61,7 +61,7 @@ export function DashboardCharts({ lineData, pieData, minBalance, maxBalance }: D
         <div className="animate-enter rounded-2xl border border-[var(--color-border)] bg-[var(--color-elevated)] p-6 shadow-[var(--shadow-card)] transition-shadow duration-300 hover:shadow-[var(--shadow-card-hover)]">
           <h2 className="text-base font-semibold text-[var(--color-ink)]">Balance over time</h2>
           <p className="mt-1 text-sm text-[var(--color-muted)]">
-            Cumulative balance by day — hover points, drag the range slider to zoom.
+            Cumulative balances by day — hover points, drag the range slider to zoom.
           </p>
           <div className="mt-4 h-80 w-full min-w-0">
             <ResponsiveContainer width="100%" height="100%">
